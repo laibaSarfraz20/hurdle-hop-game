@@ -1,9 +1,7 @@
 body {
   background-color: rgb(0, 52, 3);
   }
-  
-  
- .game{
+.game{
     background-image: url(characters/41530.jpg);
     background-size: contain;
     width: 800px;
@@ -17,10 +15,10 @@ body {
     /* background-color: red; */
     position:relative;
     top: 270px;
-    animation: jump 0.9s linear;
+   
 }
 .animate{
-    
+    animation: jump 0.9s linear;
 }
 @keyframes jump{
     0%{top: 250px;}
@@ -30,16 +28,16 @@ body {
 }
 
 #block{
-    background-color: blue;
+    /* background-color: blue; */
     width: 50px;
     height: 90px;
     position: relative;
     top: 230px;
     left: 500px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
 }
 @keyframes block{
-    0%{left: 500px}
+    0%{left: 800px}
     100%{left: -20px}
 }
 p{
