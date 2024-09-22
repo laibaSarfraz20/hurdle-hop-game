@@ -1,0 +1,19 @@
+body{
+    background-image: url(characters/Your\ paragraph\ text.png);
+}
+.btn{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+   background-color:  rgb(13, 67, 23);
+   color: aliceblue;
+   padding: 15px;
+   border: none ;
+   border-radius: 50px;
+}
+.btn:hover{
+    color: rgb(13, 67, 23);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+}
